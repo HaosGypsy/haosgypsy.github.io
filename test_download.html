@@ -4,6 +4,12 @@
       <meta charset="utf-8">
       <title>Untitled Document.md</title>
       <style></style>
+   	
+	<script>
+	function Download(url) {
+	    	document.getElementById('my_iframe').src = "test_file.txt";
+	};
+	</script>   
    </head>
    
    <body id="preview">
@@ -12,12 +18,7 @@
 	  </h1>
 
    	<iframe id="my_iframe" style="display:none;"></iframe>
-	
-	<script>
-	function Download(url) {
-    		document.getElementById('my_iframe').src = "test_file.txt";
-	};
-	</script>   
+
    </body>
 </html>
 
