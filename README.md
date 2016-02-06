@@ -12,4 +12,4 @@ This is a regular paragraph.
 
 This is another regular paragraph.
 
-<a href="http://www.w3schools.com/html/">Download Files</a>
+<a href="downloads.html" target="_blank">Download Files</a>
