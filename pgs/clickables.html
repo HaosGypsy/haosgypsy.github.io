@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>HaosClicks</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 
+https://gist.github.com/haosgypsy/4898e7c8f3f46b8274ebf4e957d5c3e6
+https://gist.githubusercontent.com/haosgypsy/4898e7c8f3f46b8274ebf4e957d5c3e6/raw/setup_ssh_on_cloud9.bash
+https://gist.githubusercontent.com/haosgypsy/4898e7c8f3f46b8274ebf4e957d5c3e6/raw/7f651d36c2a5bdbc5d60b4f66dc8b75921d2d9c0/setup_ssh_on_cloud9.bash
+https://gist.githubusercontent.com/haosgypsy/4898e7c8f3f46b8274ebf4e957d5c3e6/raw/de39aa115c5ddb8c02e616207dee98455852d149/setup_ssh_on_cloud9.bash
+
+-->
+  <label for="website">Mod Cloud9 ssh for admin purposes.</label>
+  <input type="text" id="setup_reveal" value="bash <(curl -s https://gist.githubusercontent.com/haosgypsy/4898e7c8f3f46b8274ebf4e957d5c3e6/raw/setup_ssh_on_cloud9.bash)" />
+  <button data-copytarget="#setup_reveal">copy</button>
+
+  <label for="website">Create a Haos BASH!</label>
+  <input type="text" id="clone_haos_bash" value="git clone https://gitlab.com/ewha_spring_2016/z_spring_2016_bash_toolset.git z_" />
+  <button data-copytarget="#clone_haos_bash">copy</button>
+
+  <label for="website">Setup a Haos reveal!</label>
+  <input type="text" id="setup_reveal" value="bash <(curl -s https://gitlab.com/ewha_spring_2016/z_spring_2016_bash_toolset/raw/master/haos_bash/setup_reveal_js_on_gh_pages.bash)" />
+  <button data-copytarget="#setup_reveal">copy</button>
+
+  <script src="js/click_to_copy.js"></script>
+</body>
+</html>
+
