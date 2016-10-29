@@ -5,6 +5,11 @@ body {
   background-color: #ddd;
 }
 
+#main_contain {
+  width: 80%;
+  margin: 0 auto;
+}
+
 label {
   clear: both;
   display: block;
@@ -12,12 +17,13 @@ label {
   font-weight: bold;
   padding: 0.8em 0 0.2em 0;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-input, button {
+input,
+button {
   float: left;
   font-size: 1em;
   padding: 3px 6px;
@@ -27,7 +33,7 @@ input, button {
   box-shadow: none;
 }
 
-::-moz-focus-inner { 
+::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
@@ -60,19 +66,19 @@ button {
   opacity: 0;
   will-change: opacity, transform;
   -webkit-animation: showcopied 1.5s ease;
-          animation: showcopied 1.5s ease;
+  animation: showcopied 1.5s ease;
 }
 
 @-webkit-keyframes showcopied {
   0% {
     opacity: 0;
     -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    transform: translateX(100%);
   }
   70% {
     opacity: 1;
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   100% {
     opacity: 0;
@@ -83,12 +89,12 @@ button {
   0% {
     opacity: 0;
     -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    transform: translateX(100%);
   }
   70% {
     opacity: 1;
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   100% {
     opacity: 0;
